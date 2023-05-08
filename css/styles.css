@@ -34,7 +34,7 @@ a {
 *  el margin: auto; para tenerlo centrado fácilmente ;)
 */
 main {
-    max-width: 1200px;
+    max-width: 900px;
     margin: auto;
     text-align: center;
     background-color: #fbfbfb;
@@ -61,6 +61,7 @@ p {
     margin-bottom: 20px;
     padding: 20px;
     font-size: 18px;
+    max-width: 400px;
     
 }
 
