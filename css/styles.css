@@ -107,6 +107,8 @@ figure {
     overflow: hidden;
     border-radius: 50%;
     background-color: black;
+    margin-left: 15%;
+    
 }
 
 #descargar {
@@ -120,9 +122,11 @@ figure {
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
     padding: 10px;
-    max-width: 50%;
+    max-width: 400px;
+    width: 50%; 
     color: #fbfbfb;
     font-size: 20px;
+    margin-left: 25%;
 }
 
 #contacto {
