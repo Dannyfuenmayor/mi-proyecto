@@ -2,6 +2,7 @@
 
 /* Fonts */
 /* Importar aquí la font */
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
 
 
@@ -35,7 +36,91 @@ a {
 main {
     max-width: 1200px;
     margin: auto;
+    text-align: center;
+    background-color: #fbfbfb;
+    font-family: lato;  
 }
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+}
+#item-menu1 {
+    padding: 20px;
+    
+}
+
+p {
+    
+    margin-bottom: 20px;
+    padding: 20px;
+    
+}
+
+h1,h2 {
+    padding-top: 20px;
+    
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+
+#inicio {
+    min-height: 100vh;
+}
+
+.circular {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: black;
+}
+
+#descargar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #af599e;
+    border: solid;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 10px;
+    max-width: 50%;
+    color: #fbfbfb;
+    height: 40px;
+}
+
+#contacto {
+    min-height: 100vh;
+
+}
+
+#hablemos {
+    background-color: rgba(175,89,158, 0.3);
+}
+
+footer {
+    background-color: #af599e;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+
 
 /* Recomendaciones! 
 *  - Comenzar desde lo más general y luego ir hacia lo mas específico, asignando primero
