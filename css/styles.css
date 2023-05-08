@@ -39,7 +39,7 @@ main {
     text-align: center;
     background-color: #fbfbfb;
     font-family: lato;
-    padding-top: 90px;  
+      
 }
 
 header {
@@ -93,6 +93,7 @@ ul {
 
 #inicio {
     min-height: 100vh;
+    padding-top: 120px;
 }
 
 figure {
@@ -126,6 +127,7 @@ figure {
 
 #contacto {
     min-height: 100vh;
+    padding-top: 120px;
 
 }
 
